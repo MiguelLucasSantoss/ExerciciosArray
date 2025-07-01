@@ -68,13 +68,6 @@ const separateEvenOdd = (nums) => {
 
 	return result;
 };
-
-// testes
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const separated = separateEvenOdd(numbers);
-
-console.log("Input:", numbers);
-console.log("Output:", JSON.stringify(separated));
 // o output deve ser [[2,4,6,8,10],[1,3,5,7,9]]
 
 const otherNumbers = [21, 33, 44, 12, 98, 77, 1, 0];
